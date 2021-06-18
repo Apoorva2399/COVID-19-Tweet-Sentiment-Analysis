@@ -1,4 +1,4 @@
-# COVID-19-Tweet-Sentiment-Analysis
+# COVID-19 Tweet Sentiment Analysis
 
 # Problem Description 
 
