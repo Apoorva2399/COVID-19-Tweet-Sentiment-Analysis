@@ -1,10 +1,10 @@
 # COVID-19 Tweet Sentiment Analysis
 
-# Problem Description : 
+### Problem Description : 
 
 This challenge asks you to build a classification model to predict the sentiment of COVID-19 tweets.The tweets have been pulled from Twitter and manual tagging has been done then. The names and usernames have been given codes to avoid any privacy concerns.
 
-# Data Description :
+### Data Description :
 
 You are given the following information:
 Location
@@ -12,7 +12,7 @@ Tweet At
 Original Tweet
 Label
 
-# Data Preprocessing : 
+### Data Preprocessing : 
 * The preprocessing of the text data is an essential step as it makes the raw text ready for mining.
 * The objective of this step is to clean noise those are less relevant to find the sentiment of tweets such as punctuation, special characters, numbers, and terms which don’t    carry much weightage in context to the text.
 * The tweets contain lots of twitter handles (@user). We will remove all these twitter handles from the data as they don’t convey much information.
@@ -25,7 +25,7 @@ Label
 * In tokenization we convert group of sentence into token . It is also called text segmentation or lexical analysis. It is basically splitting data into small chunk of words. Tokenization in python can be done by python NLTK library’s word_tokenize() function.
 * We chose Count Vectorizer as our Vectorizer with minimum  document frequency =10. It will create a sparse matrix of all words and the number of times they are present in a document.
 
-# Conclusion
+### Conclusion
 * For multiclass classification, the best model for this dataset would be CatBoost
 * For binary classification, the best model for this dataset would be Stochastic Gradient Descent
 
