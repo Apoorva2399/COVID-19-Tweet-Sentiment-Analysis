@@ -7,10 +7,10 @@ This challenge asks you to build a classification model to predict the sentiment
 ### Data Description :
 
 You are given the following information:
-Location
-Tweet At
-Original Tweet
-Label
+* Location
+* Tweet At
+* Original Tweet
+* Label
 
 ### Data Preprocessing : 
 * The preprocessing of the text data is an essential step as it makes the raw text ready for mining.
